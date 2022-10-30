@@ -1,0 +1,194 @@
+**The Input and output by the compiler is given in the sequential order along with a brief description of what its checking in bracket 
+
+
+Test Case 1:( Checking the admin identity)
+
+ Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+1
+ please enter the key
+22222
+wrong input
+
+
+Test Case 2:( Allowing admin to deposit money)
+
+ Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+1
+ please enter the key
+201010
+enter the amount to deposit
+1000000
+
+
+
+Test Case 3: (Checking balance )
+
+ Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+10000   
+Please enter the pin
+20000
+Please choose the following
+ 1  View balance
+ 2  Withdrawl Money
+ 3  Deposits funds
+1
+ Your Current Balance
+0.0 
+
+
+Test Case 5: ( Deposit the amount )
+
+Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+10000
+Please enter the pin
+20000
+Please choose the following
+ 1  View balance
+ 2  Withdrawl Money
+ 3  Deposits funds
+3
+ Please enter the amount to deposit
+enter amount  
+ 1000
+
+present balance  0.0
+ Amt to deposit  1000.0
+Changed balance  1000.0
+
+
+ Test Case 6: ( Invalid account number)
+
+ Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+10002
+please enter valid account number
+
+
+
+Test Case 7: (Invalid pin number - limited number of trying)
+
+
+Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+20000
+Please enter the pin
+20
+ the pin entered is wrong, Please re-enter
+
+errors try remaining 5
+Please enter the pin
+40000
+Please choose the following
+ 1  View balance
+ 2  Withdrawl Money
+ 3  Deposits funds
+3
+  Please enter the amount to deposit 
+enter amount   1000
+present balance  0.0
+ Amt to deposit  1000.0
+Changed balance  1000.0
+
+
+
+Test Case 8: ( Insufficient funds)
+
+ Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+10000
+Please enter the pin
+20000
+Please choose the following
+ 1  View balance
+ 2  Withdrawl Money
+ 3  Deposits funds
+2
+  Please enter the amount to withdraw
+enter amount   1000000
+Insufficient funds
+
+
+Test Case 9: ( Withdraw amount)
+
+Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+20000
+Please enter the pin
+40000
+Please choose the following
+ 1  View balance
+ 2  Withdrawl Money
+ 3  Deposits funds
+2
+  Please enter the amount to withdraw
+enter amount   100
+present balance  1000.0
+ Amt to withdraw  100.0
+Changed balance  900.0
+
+
+
+
+Test Case 10: ( New updated balance)
+
+Welcome to HDFC atm
+
+Please select one 1. admin or 2. customer
+2
+ Please enter the account number
+20000
+Please enter the pin
+40000
+Please choose the following
+ 1  View balance
+ 2  Withdrawl Money
+ 3  Deposits funds
+1
+ Your current balance
+900.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
